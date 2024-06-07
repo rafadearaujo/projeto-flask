@@ -1,0 +1,60 @@
+/*Tipo de botão que será usado JS*/
+button {
+    background-color: black; /* Green */
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white; /* Green */
+    color: black;
+}
+
+a.button {
+    background-color: #015099; /* Green */
+    border: 2px solid #015099;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+ }
+
+a.button:hover {
+    background-color: white; /* Green */
+    color: #015099;
+}
+
+a.instagram{ width:100px; height:100px;
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  padding: 10px 20px;
+  color: white;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a.instagram:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+a{
+    color: #015099;
+    text-decoration: none;
+}
